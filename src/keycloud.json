@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "even-shuttle-250512",
+  "private_key_id": "a3b0a86076b0039593619f75ec65b98dc8e93960",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDA9B+PC+u5tZJ9\nKs53Z0rUGSow+DoEmH0PKLOJsQLJVadUEpzcZNWf0yyQAdM90dikZnq3NLUilBdQ\nqL2tEa7OH5okCjNwme1upyYYzgvZevaSa+/hNnkoUCDHhkg3PMCwZ8rdOVRRrJ+H\nF3M6J54lqYpsj6XI79G4vvjD0rLKojxMWJ2ZdFle0Oz0sGyzVN78yXInMLAh8e1s\nk0AcERVkk78hYZz+d+xm0YUqztnEpSX2YSlnZYFXKAMfm1mIN1TU4W3bJs5L9SpS\nVK+7ZwnoRM0NtE7O7Vue9SbaxnktydHm+zCFo7NVrs8IcHW4IVwf3H/7nFjkgwa1\nYFjPQjbxAgMBAAECggEAAQd2r66mSL9p0HzZ8uDK/HnWsjCuzcfgbxnfdfqd7CW3\n+9OjJ9Fm5J1hNHRZEJBVTsN/DucuNwOwd1XYXlYYtssImeIYiDk7eDK+HY90+Upg\nKbzEiWIS4CTb3HCv2N2hZklrHJ9BNkwX7/L4B7t/oj1w0Ar2UP06QTQZuFu4N6Bu\nhQYHau8W2YPtP+jb+Aw0xXuR89ijic6C4ZS1fwIfhvFHPh1xOFM6l0mDfr5REsKt\nKu3vk0QZCtgm7CvhEEeA7Tnrw8DkngPVRFeJNBxS47UXSsaSd/YTEgmpRXC0c+3W\nvvtRfTXZzdcqrdEG6FxzcgDt6AIotcRCY8o12zSdpwKBgQDvdbIEvMkQ9AGIZsig\nxcK1f4aSjkXlZttdLOaEmNAKU9jpYF99vZwHBQfTfMj7jixCRkTN4CjStfJDSXGC\nH4LKQVkVvEvfRHT/7WLBRBEQ6529S+7pZmX6sB2974q4ptEC8ByAZmK2MlHNL8CP\n1aIh7EYjy7kgmyYt+ZnkQHYIKwKBgQDOSBJlchhvQTgncVpITLqaqMPG5ZcC2xPs\nCINqmIs0G9P8VJ80sSA5uHJWGEEWBgrjzGYslqXyMqOqXHgrrELLlAe48Q5h/QbS\nkh6mw/djlQSWJNusS1diwD74mGUhLhfQxK+ICfbhjeTThaGFpC55CiwLrECOBHbF\nPYmmvJczUwKBgQChFAXlA+0pF0p0q9dntsAMgTVQHp5L+02ytsJ2DalcWRy/mFGD\n7uknG64xCG7WMMP67PPZnWE4pKXLt3rAclvzm9PGODy9enpNsizNHvFv9V7NeGfE\n31nYMWJAYwNoxOYyWLyDbtwV/XFjWizpVGbU9PAVojPtCBC9unpXvTjoswKBgC0v\ntHfsalXUn4xkVDaKOEYwudIT8OR7QP3vT3pGOBgOEH2xu747HqgGM2WQopFEeZY0\n7BzQU0GeviNPZjOK5IbbwmVMyK3GU3xE7dnyC3sQ5ZRONqCjUF0dZ63lFCIUirr8\nmsbeB+qYvotnNl6j/FofVE6qSOnTKIFEXabcoPJpAoGAKkYYVjWG3YOvdjw+FMwf\nCj0wTbXHqPWLSSEib/cBLps3Gln/TjHAwaddN5yILU6VCDl/G4A4zh26yIc8sS14\nc4YQt2q22iQLjC9nIi7LwTK5j5AQAdrtdqeLz4VWijuPuxP8aJ2mnx3+3vOAy8OP\nzHZ4AIrevGcO4g3dEYFATq8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "reportai@even-shuttle-250512.iam.gserviceaccount.com",
+  "client_id": "115417121069560117324",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reportai%40even-shuttle-250512.iam.gserviceaccount.com"
+}
