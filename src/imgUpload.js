@@ -4,7 +4,7 @@ const fs = require('fs')
 
 const gcs = new Storage({
   projectId: 'even-shuttle-250512',
-  keyFilename: '/keycloud.json'
+  keyFilename: './src/keycloud.json'
 });
 
 const bucketName = 'reportai-images'
@@ -22,6 +22,7 @@ ImgUpload.uploadToGcs = (req, res, next) => {
   // Can optionally add a path to the gcsname below by concatenating it before the filename
   const gcsname = req.file.originalname;
   const file = bucket.file(gcsname);
+
 
   const stream = file.createWriteStream({
     metadata: {
@@ -41,6 +42,7 @@ ImgUpload.uploadToGcs = (req, res, next) => {
   });
 
   stream.end(req.file.buffer);
+
 }
 
 module.exports = ImgUpload;
