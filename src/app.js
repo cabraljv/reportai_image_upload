@@ -1,41 +1,27 @@
-const express = require('express')
+const express = require('express');
+const multer = require('multer');
+const gcsSharp = require('multer-sharp');
 
-const bodyParser = require('body-parser')
-const app = express()
-const routes = require('./routes')
-app.use(bodyParser.json());
+const app = express();
 
-
-app.use(routes)
-/*
-const gcsname = req.file.originalname;
-const file = bucket.file(gcsname);
-
-const stream = file.createWriteStream({
-  metadata: {
-    contentType: req.file.mimetype
-  }
+const storage = gcsSharp({
+  bucket: 'reportai-images',
+  projectId: 'even-shuttle-250512',
+  keyFilename: 'src/keycloud.json',
+  destination: 'public/image',
+  acl: 'publicRead',
+  size: {
+    width: 700,
+    height: 700
+  },
+  max: true
 });
+const upload = multer({ storage });
 
-stream.on('error', (err) => {
-  req.file.cloudStorageError = err;
-  next(err);
+app.post('/insert', upload.single('image'), (req, res) => {
+  console.log(req.file.path);
+  res.json({ imageUrl: req.file.path });
 });
-
-stream.on('finish', () => {
-  req.file.cloudStorageObject = gcsname;
-  req.file.cloudStoragePublicUrl = getPublicUrl(gcsname);
-  next();
-});
-
-stream.end(req.file.buffer);
-
-
-fs.unlinkSync(req.file.path);
-
-res.json({ result: getPublicUrl(gcsname) })
-}
-*/
 
 
 app.listen(3333)
